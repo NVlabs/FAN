@@ -1,4 +1,4 @@
-# Understanding The Robustness in Vision Transformers
+# Fully Attentional Networks
 
 <p align="center">
 <img src="demo/Teaser.png" width=60% height=60% 
