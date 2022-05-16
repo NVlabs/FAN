@@ -4,7 +4,7 @@
 
 Understanding The Robustness in Vision Transformers. \
 [Daquan Zhou](https://scholar.google.com/citations?user=DdCAbWwAAAAJ&hl=en), [Zhiding Yu](https://chrisding.github.io/), [Enze Xie](https://xieenze.github.io/), [Chaowei Xiao](https://xiaocw11.github.io/), [Anima Anandkumar](https://research.nvidia.com/person/anima-anandkumar), [Jiashi Feng](https://sites.google.com/site/jshfeng/home) and [Jose M. Alvarez](https://alvarezlopezjosem.github.io/). \
-Technical Report, 2022.
+International Conference on Machine Learning, 2022.
 
 <p align="center">
 <img src="demo/Teaser.png" width=60% height=60% 
@@ -125,10 +125,10 @@ This repository is built using the [timm](https://github.com/rwightman/pytorch-i
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-@Article{zhou2022understanding,
-  author  = {Daquan Zhou, Zhiding Yu, Enze Xie, Chaowei Xiao, Anima Anandkumar, Jiashi Feng, Jose M. Alvarez},
+@inproceedings{zhou2022understanding,
   title   = {Understanding The Robustness in Vision Transformers},
-  journal = {arXiv:2204.12451},
+  author  = {Daquan Zhou, Zhiding Yu, Enze Xie, Chaowei Xiao, Anima Anandkumar, Jiashi Feng, Jose M. Alvarez},
+  booktitle = {International Conference on Machine Learning (ICML)},
   year    = {2022},
 }
 ```
