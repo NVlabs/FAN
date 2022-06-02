@@ -58,7 +58,7 @@ def get_ce_alexnet():
     ce_alexnet['contrast'] = 0.853204
     ce_alexnet['elastic_transform'] = 0.646056
     ce_alexnet['pixelate'] = 0.717840
-    ce_alexnet['jPEG_compression'] = 0.606500
+    ce_alexnet['jpeg_compression'] = 0.606500
 
     return ce_alexnet
 
