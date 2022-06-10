@@ -38,6 +38,7 @@ def _cfg(url='', **kwargs):
 default_cfgs = {
     # Patch size 16
     'fan_tiny_8_p16_224': _cfg(),
+    'fan_tiny_12_p16_224': _cfg(),
     'fan_small_12_p16_224': _cfg(),
     'fan_base_18_p16_224': _cfg(),
     'fan_large_24_p16_224': _cfg(),
