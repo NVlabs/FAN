@@ -84,6 +84,7 @@ For other out-of-distribution shift benchmarks, we use [ImageNet-A](https://gith
 | FAN-L-Hybrid | 224x224 | 86.5/73.6 | 76.8M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_large_in22k_1k.pth.tar) |
 | FAN-L-Hybrid | 384x384 | 87.1/- | 76.8M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_large_in22k_1k_384.pth.tar) |
 
+The pre-trained model weights for [FAN-B-Hybrid](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_base_in22k.pth.tar) and [FAN-L-Hybrid](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_large_in22k.pth.tar) on ImageNet22K without fine-tuning on ImageNet-1k are also uploaded. Checkpoints cabn be downloaded by clicking on the model name.
 ## Demos
 ### Semantic Segmentation on Cityscapes-C
 
