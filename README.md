@@ -16,9 +16,9 @@ This repository contains the official Pytorch implementation of the training/eva
 **FAN** is a family of general-purpose Vision Transformer backbones that are highly robust to unseen natural corruptions in various visual recognition tasks.
 
 ## Catalog
-- [ ] Pre-trained Model Release
 - [ ] ImageNet-22K Fine-tuning Code Release
 - [ ] Cityscape-C and COCO-C dataset release
+- [x] Pre-trained Model Release
 - [x] Cityscape-C and COCO-C dataset generation script
 - [x] Downstream Transfer (Detection, Segmentation) Code Release
 - [x] ImageNet-1K Training & Fine-tuning Code Release
@@ -63,26 +63,26 @@ For other out-of-distribution shift benchmarks, we use [ImageNet-A](https://gith
 
 | Model | Resolution |IN-1K | IN-C| IN-A| IN-R | #Params | Download |
 |:---:|:---:|:---:|:---:| :---:|:---:|:---:|:---:|
-| FAN-T-ViT | 224x224 | 79.2 | 57.5| 15.6 | 42.5 | 7.3M | [model]() |
-| FAN-S-ViT | 224x224 | 82.9 | 64.5| 29.1 | 50.4 | 28.0M  | [model]() |
-| FAN-B-ViT | 224x224 | 83.6 | 67.0| 35.4 | 51.8 | 54.0M  | [model]() |
+| FAN-T-ViT | 224x224 | 79.2 | 57.5| 15.6 | 42.5 | 7.3M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_vit_tiny.pth.tar) |
+| FAN-S-ViT | 224x224 | 82.5 | 64.5| 29.1 | 50.4 | 28.0M  | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_vit_small.pth.tar) |
+| FAN-B-ViT | 224x224 | 83.6 | 67.0| 35.4 | 51.8 | 54.0M  | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_vit_base.pth.tar) |
 | FAN-L-ViT | 224x224 | 83.9 | 67.7| 37.2 | 53.1 | 80.5M | [model]() |
 
 ### FAN-Hybrid ImageNet-1K trained models
 | Model | Resolution |IN-1K / IN-C| City / City-C| COCO / COCO-C | #Params | Download |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| FAN-T-Hybrid | 224x224 | 80.1/57.4 | 81.2/57.1 | 50.2/33.1 | 7.4M | [model]() |
-| FAN-S-Hybrid | 224x224 | 83.5/64.7 | 81.5/66.4 | 53.3/38.7 |26.3M | [model]() |
-| FAN-B-Hybrid | 224x224 | 83.9/66.4| 82.2/66.9 | 54.2/40.6 |50.4M | [model]() |
+| FAN-T-Hybrid | 224x224 | 80.1/57.4 | 81.2/57.1 | 50.2/33.1 | 7.4M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_tiny.pth.tar) |
+| FAN-S-Hybrid | 224x224 | 83.5/64.7 | 81.5/66.4 | 53.3/38.7 |26.3M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_small.pth.tar) |
+| FAN-B-Hybrid | 224x224 | 83.9/66.4| 82.2/66.9 | 54.2/40.6 |50.4M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_base.pth.tar) |
 | FAN-L-Hybrid | 224x224 | 84.3/68.3| 82.3/68.7| 55.1/42.0 |76.8M | [model]() |
 
 ### FAN-Hybrid ImageNet-22K trained models
 | Model | Resolution |IN-1K/IN-C | #Params | Download |
 |:---:|:---:|:---:|:---:|:---:|
-| FAN-B-Hybrid | 224x224 | 85.3/70.5 | 50.4M  | [model]() |
-| FAN-B-Hybrid | 384x384 | 85.6/- | 50.4M  | [model]() |
-| FAN-L-Hybrid | 224x224 | 86.5/73.6 | 76.8M | [model]() |
-| FAN-L-Hybrid | 384x384 | 87.1/- | 76.8M | [model]() |
+| FAN-B-Hybrid | 224x224 | 85.3/70.5 | 50.4M  | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_base_in22k_1k.pth.tar) |
+| FAN-B-Hybrid | 384x384 | 85.6/- | 50.4M  | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_base_in22k_1k_384.pth.tar) |
+| FAN-L-Hybrid | 224x224 | 86.5/73.6 | 76.8M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_large_in22k_1k.pth.tar) |
+| FAN-L-Hybrid | 384x384 | 87.1/- | 76.8M | [model](https://github.com/zhoudaquan/fully_attentional_network_ckpt/releases/download/v1.0.0/fan_hybrid_large_in22k_1k_384.pth.tar) |
 
 ## Demos
 ### Semantic Segmentation on Cityscapes-C
