@@ -17,9 +17,9 @@ This repository contains the official Pytorch implementation of the training/eva
 
 ## Catalog
 - [ ] ImageNet-22K Fine-tuning Code Release
-- [ ] Cityscape-C and COCO-C dataset release
+- [ ] Cityscape-C and COCO-C Dataset Release
 - [x] Pre-trained Model Release
-- [x] Cityscape-C and COCO-C dataset generation script
+- [x] Cityscape-C and COCO-C Dataset Generation Script
 - [x] Downstream Transfer (Detection, Segmentation) Code Release
 - [x] ImageNet-1K Training & Fine-tuning Code Release
 - [x] Init Repo
