@@ -579,7 +579,6 @@ class FAN(nn.Module):
 
     def forward_features(self, x):
         outs = []
-        out_index = [4, 7, 11]
         B = x.shape[0]
         if isinstance(self.patch_embed, HybridEmbed):
             x, (Hp, Wp), out_list = self.patch_embed(x, return_feat=True)
