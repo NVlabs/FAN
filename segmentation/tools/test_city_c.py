@@ -100,7 +100,7 @@ def main():
     for noise_name in name_list:
         res_sum = 0
         results = []
-        severity_range = 1 if noise_name == 'clean' else 5
+        severity_range = 1 if noise_name == 'clean' else 3
         for i in range(severity_range):
             corrupt, severity = noise_name, i + 1
             assert args.out or args.eval or args.format_only or args.show \
