@@ -695,6 +695,8 @@ class FAN(nn.Module):
             blk.H, blk.W = H, W
             if self.use_checkpoint:
                 x = checkpoint.checkpoint(blk, x)
+            elif isinstance(blk, FANBlock_SE):
+                (x, Hp, Wp) = blk(x, Hp, Wp)
             else:
                 x = blk(x)
             H, W = blk.H, blk.W
