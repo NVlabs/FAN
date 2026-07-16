@@ -38,7 +38,7 @@ import torch.nn as nn
 import torchvision.utils
 from torch.nn.parallel import DistributedDataParallel as NativeDDP
 
-from distutils.dir_util import copy_tree
+from shutil import copytree
 
 from timm.data import create_dataset, create_loader, resolve_data_config, Mixup, FastCollateMixup, AugMixDataset
 from timm.models import create_model, resume_checkpoint, load_checkpoint, convert_splitbn_model, model_parameters
@@ -605,7 +605,7 @@ def main():
         ])
         output_dir = get_outdir(output_base, 'train', exp_name)
         code_dir = get_outdir(output_dir, 'code')
-        copy_tree(os.getcwd(), code_dir)
+        copytree(os.getcwd(), code_dir, dirs_exist_ok=True)
         decreasing = True if eval_metric == 'loss' else False
         if args.rank == 0:
             saver = CheckpointSaver(
